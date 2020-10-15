@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    border: 2px solid black;
+      padding: 10px 60px;
+    color:white;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: medium;
+    
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .fa{
+    padding: 0px;  
+    font-size: 10px;  
+    width: 70px;  
+    text-align: right;  
+    text-decoration: none;
+    color: white;
+  }
+  .fa:hover{   
+    opacity: 0.7;
+  }
+  .img-appcie{
+    width:1300px;
+    height: 450px;
+    background-size: 100%;
+    background-image:url(img/appcie.jpg.jpg);
+  }
+  .img-appcie:hover{ 
+  
+  background-size: 100%;
+  
+  }
+  h3 {
+  border: 2px solid black;
+      padding: 40px 60px;
+    color:white;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: medium;
+  
+  }
+  
+  input[type=text], select, textarea {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
