@@ -3,6 +3,18 @@
 <head>
   
         <title>appcient</title>
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+          }
+
+          #map {
+            height: 500px;
+            width: 100%;
+          }
+
+        </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
@@ -52,6 +64,9 @@
                   <td style="padding:20px">LastName*</td>
                   <td>
                     <input type="text" name="Lastname" maxlength="150" size="150" required="">
+                    <td>
+                    <img class="img-location">
+                  </td>
                   </td>
                </tr>
                <tr>
@@ -78,12 +93,30 @@
            </td>
          </tr>
             </table>
+           
+          </div> 
+        
       
-        </div>
+        <div id="map"></div>
+        <script>
+          function initMap(){
+            var location = {lat: 17.385044, lng: 78.486671};
+            var map = new google.maps.Map(document.getElementById("map"),{zoom: 4,center:location 
+            });
+            var marker = new google.maps.marker({
+              position: location,
+              map: map
+            });
+          }
+
+       </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkW5Uwowo89E38u7Uy5QnegBW60vYA-Lk&callback=initMap" type="text/javascript"></script>>
+
+        
 </html>
  
                 
-              </body>
+</body>
     
 
 
