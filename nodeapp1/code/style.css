@@ -91,15 +91,33 @@ body {
     background-color: #f2f2f2;
     padding: 20px;
   }
- .img-location{
+  .img-location{
+    width:50px;
+    height: 50px;
+  background-size: 50%;
+    background-image:url(img/location-png.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 600%;
+  }
   
-width: 30px;
-height: 50px;
-  background-size: 80%;
-  padding-left: 10%;
-  background-image:url(img/location.jpg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-text-align: left;
-  
-}
+
+  .img-phone{
+    width:50px;
+    height: 50px;
+  background-size: 50%;
+    background-image:url(img/phone-png.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 500%;
+  }
+  .img-email{
+    width:50px;
+    height: 50px;
+  background-size: 50%;
+    background-image:url(img/email-png.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 500%;
+  }
+ 
