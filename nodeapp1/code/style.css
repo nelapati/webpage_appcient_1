@@ -98,18 +98,27 @@ body {
     background-image:url(img/location-png.png);
     background-repeat: no-repeat;
     position: relative;
-    right: 600%;
-  }
-  
-
-  .img-phone{
+    right: 5%;
+     }
+     address { 
+      display: block;
+      font-family: arial, "Times new roman";
+      float: right;
+      font-size: 20px;
+      text-align: left;
+      letter-spacing: 20%;
+      margin-bottom: 10px;
+      } 
+     
+    .img-phone{
     width:50px;
     height: 50px;
   background-size: 50%;
     background-image:url(img/phone-png.jpg);
     background-repeat: no-repeat;
     position: relative;
-    right: 500%;
+    right: 5%;
+    margin-top: 30px;
   }
   .img-email{
     width:50px;
@@ -118,6 +127,7 @@ body {
     background-image:url(img/email-png.jpg);
     background-repeat: no-repeat;
     position: relative;
-    right: 500%;
+    right: 5%;
+    margin-top: 30px;
   }
  
