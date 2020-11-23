@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    border: 2px solid black;
+      padding: 10px 30px;
+    color:white;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: medium;
+    
+  }
+ 
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    width: 100%;
+    height:60px;
+    background-color: white;
+  }
+  nav p
+  {
+    font-family: arial;
+    color: red;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+  }
+  nav h span{
+    color:red;
+    font-size: 40px;
+    
+  }
+  nav h{
+    color:blue;
+    font-size: 40px;
+    
+  }
+  nav ul{
+    float: right;
+  }
+  nav ul li{
+    float: right;
+    list-style: none;
+    position: relative;
+  }
+  nav ul li a{
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size:14px;
+    padding: 22px 14px;
+    text-decoration: none;
+  }
+  nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    
+  }
+  nav ul li:hover ul{
+    display: block;
+   
+  }
+  nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+  }
+  nav ul li ul li a{
+    padding: 8px 12px;
+  }
+  nav ul li ul li a:hover{
+    background-color: red;
+  }
+ 
+ .fa{
+    padding: 0px;  
+    font-size: 10px;  
+    width: 70px;  
+    text-align: right;  
+    text-decoration: none;
+    color: white;
+  }
+  .fa:hover{   
+    opacity: 0.7;
+  }
+  
+  .img-appcie{
+    width:1300px;
+    height: 450px;
+    background-size: 100%;
+    background-image:url(img/appcie.jpg.jpg);
+  }
+  .img-appcie:hover{ 
+  
+  background-size: 100%;
+  
+  }
+  h3 {
+  border: 2px solid black;
+      padding: 40px 60px;
+    color:white;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: medium;
+  
+  }
+  
+  input[type=text], select, textarea {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .img-location{
+    width:50px;
+    height: 50px;
+  background-size: 50%;
+    background-image:url(img/location-png.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 5%;
+     }
+     address { 
+      display: block;
+      font-family: arial, "Times new roman";
+      float: right;
+      font-size: 20px;
+      text-align: left;
+      letter-spacing: 20%;
+      margin-bottom: 10px;
+      } 
+     
+    .img-phone{
+    width:50px;
+    height: 50px;
+  background-size: 50%;
+    background-image:url(img/phone-png.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 5%;
+    margin-top: 30px;
+  }
+  .img-email{
+    width:50px;
+    height: 50px;
+  background-size: 50%;
+    background-image:url(img/email-png.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 5%;
+    margin-top: 30px;
+  }
+  body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+  }
+  main{
+width: 90vw;
+margin: 0 auto;
+padding: 30px,20px;
+min-height: calc(100vh -450px -351.333);
+  }
+
+  html, body { 
+  
+    height: 100%;
+    position: relative;
+    padding-bottom: 58px;
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-wrapper{
+    
+    min-height: 100%;
+    
+    }
+  
+.footer {
+     background-color: #303036;
+     color: white;
+     height: 300px;
+     position: relative;
+     width: 100%;
+  bottom: 0;
+    margin-top: -100px;
+    flex-shrink: 0;
+    font-size: 40px;
+    }
+  
+    .footer .footer-content{
+      border: 1px solid red;
+      height: 350px;
+      display: flex;
+    }
+    .footer .footer-content .footer-section{
+      flex:1;
+      border: 1px solid white;
+      padding: 25px;
+      font-size: 20px;
+      
+      
+    }
+
+.footer .footer-content .about h1 span{
+
+  color:red;
+  
+}
+.footer .footer-content .about h1{
+  color:blue;
+
+    }
+    .footer .footer-content .about .contact span{
+      color:blue;
+      display: block;
+    
+        }
+        
+        
+    
+   
+.footer .footer-bottom  {
+      background-color: #343a40;
+      color:white;
+      height: 30px;
+      width: 100%;
+      text-align: center;
+      bottom: 0px;
+      left: 0px;
+      padding-top: 20px;
+    position: absolute;
+    margin-bottom: -50px;
+    font-size: 15px;
+    }

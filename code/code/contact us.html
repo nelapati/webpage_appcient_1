@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+  <html>
+<head>
+  
+        <title>appcient</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+          }
+
+          #map {
+            height: 500px;
+            width: 100%;
+          }
+
+        </style>
+        
+        <script src="index.js" type="text/javascript">
+
+</script>
+    </head>
+    
+    <h2 style="background-color:darkblue">
+        
+        <span style="float:left"  class="iconify" data-icon="simple-line-icons:envelope" data-inline="false"></span>
+        
+        <a title="Email" aria-label="Email" style="color: white;" href="mailto:info@appcient.in">info@appcient.in</a>
+    
+       <i class="fa fa-phone-square">+919705367779</i>
+        
+       <a style="float:right" style="color: white;" href="http://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a><a style="float:right" style="color: white;" href="https://twitter.com" target="_blank" class="fa fa-twitter"></a><a style="float: right;" style="color: white;" href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+    </h2>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <body>
+      <nav>
+        <p>logo</p>
+        <ul>
+          
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="#">ABOUT US</a>
+          <ul>
+            <li><a href="#">company overview</a></li>
+            <li><a href="#">careers</a></li>
+          </ul>
+          </li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="index.html">HOME</a></li>
+           
+    
+        </ul>
+      </nav>
+        
+        <h3 style="background-color:darkblue">CONTACT US</h3>
+        <a href="index.html"></a>
+        <div class="container">
+          <form action="action_page.php">
+          <div>
+            <table>
+               <tr>
+                  <td style="padding:20px">Firstname*</td>
+                <td>
+                    <input type="text" name="Firstname" maxlength="150" size="150" required="">
+                </td>
+               </tr>
+              
+               <tr>
+                  <td style="padding:20px">LastName*</td>
+                  <td>
+                    <input type="text" name="Lastname" maxlength="150" size="150" required="">
+                  </td>
+                
+                    <td>
+                      
+                      <img class="img-location">
+                      
+                      <td>
+                        <address>
+                        <b>Appcient it solutions</b> 
+                        tadepalli                              
+                        
+                       </address>
+                      </td>
+                     </td>
+                    
+                   </tr>
+               <tr>
+                <td style="padding:20px">Email*</td>
+                <td>
+                  <input type="text" name="Email" maxlength="150" size="150" required="">
+                </td>
+                  <td>
+                    <img class="img-phone">
+                    <td>
+                      +91970536779
+                    </td>
+                    
+                   </td>
+                </td>
+             </tr>
+             <tr>
+              <td style="padding:20px">Telephone number*</td>
+              <td>
+                <input type="text" name="Telephonenumber" maxlength="150" size="150" required="">
+              </td>
+              
+              
+              <td>
+                <img class="img-email">
+                <td>
+                  <a title="Email" aria-label="Email" style="color: black;" href="mailto:info@appcient.in">info@appcient.in</a>
+    
+                </td>
+              </td>
+           </tr>
+           <tr>
+            <td style="padding:20px">Message*</td>
+            <td>
+              <textarea name="Message" maxlength="1000" cols="25" rows="6"></textarea>
+            </td>
+         </tr>
+         <tr>
+           <td colspan="2" style="text-align: center;">
+             <input id="submit1" class="btn btn-default" type="submit" value="submit" name="submit" style="padding: left 13;">
+           </td>
+         </tr>
+            </table>
+           
+          </div> 
+        
+      
+        <div id="map"></div>
+        <script>
+          function initMap(){
+            var location = {lat: 17.385044, lng: 78.486671};
+            var map = new google.maps.Map(document.getElementById("map"),{zoom: 4,center:location 
+            });
+            var marker = new google.maps.marker({
+              position: location,
+              map: map
+            });
+          }
+
+       </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkW5Uwowo89E38u7Uy5QnegBW60vYA-Lk&callback=initMap" type="text/javascript"></script>>
+
+        
+</html>
+ 
+                
+</body>
+    
+
+
+  </html>
