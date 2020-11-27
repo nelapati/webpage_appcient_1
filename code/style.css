@@ -10,6 +10,7 @@ body {
     font-size: medium;
     
   }
+ 
   
   *{
     margin: 0;
@@ -23,11 +24,21 @@ body {
   nav p
   {
     font-family: arial;
-    color: blueviolet;
+    color: red;
     font-size: 24px;
     line-height: 55px;
     float: left;
     padding: 0px 20px;
+  }
+  nav h span{
+    color:red;
+    font-size: 40px;
+    
+  }
+  nav h{
+    color:blue;
+    font-size: 40px;
+    
   }
   nav ul{
     float: right;
@@ -79,15 +90,7 @@ body {
   .fa:hover{   
     opacity: 0.7;
   }
-  .img-appcient{
-    width:270px;
-    height: 50px;
-    background-size: cover;
-    background-image:url(img/appcient.png);
-    float:left;
-    background-color: white;
-    
-  } 
+  
   .img-appcie{
     width:1300px;
     height: 450px;
@@ -215,12 +218,44 @@ min-height: calc(100vh -450px -351.333);
   bottom: 0;
     margin-top: -100px;
     flex-shrink: 0;
+    font-size: 40px;
     }
   
     .footer .footer-content{
       border: 1px solid red;
       height: 350px;
+      display: flex;
     }
+    .footer .footer-content .footer-section{
+      flex:1;
+      border: 1px solid #303036;
+      padding: 25px;
+      font-size: 20px;
+      
+   }
+   
+.footer .footer-content .about h1 span{
+
+  color:red;
+  
+}
+.footer .footer-content .about h1{
+  color:blue;
+
+    }
+    
+    .footer .footer-content .links ul li{
+    display: block; 
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    right: 20px;
+    }
+    .footer .footer-content .socials{
+
+    margin-top: 90px;
+    
+    } 
     .footer .footer-bottom  {
       background-color: #343a40;
       color:white;
@@ -232,4 +267,5 @@ min-height: calc(100vh -450px -351.333);
       padding-top: 20px;
     position: absolute;
     margin-bottom: -50px;
+    font-size: 15px;
     }
