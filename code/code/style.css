@@ -21,15 +21,15 @@ body {
     height:60px;
     background-color: white;
   }
-  nav p
-  {
-    font-family: arial;
-    color: red;
-    font-size: 24px;
-    line-height: 55px;
-    float: left;
-    padding: 0px 20px;
+  .img-appcient{
+    width:100px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url(img/appcient.png);
+    
   }
+  
   nav h span{
     color:red;
     font-size: 40px;
@@ -69,7 +69,7 @@ body {
    
   }
   nav ul li ul li {
-    width: 180px;
+    width: 220px;
     border-radius: 4px;
   }
   nav ul li ul li a{
@@ -92,16 +92,19 @@ body {
   }
   
   .img-appcie{
-    width:1300px;
-    height: 450px;
+    width:100%;
+    height: 750px;
     background-size: 100%;
     background-image:url(img/appcie.jpg.jpg);
+  
   }
   .img-appcie:hover{ 
   
   background-size: 100%;
   
   }
+ 
+  
   h3 {
   border: 2px solid black;
       padding: 40px 60px;
@@ -111,6 +114,38 @@ body {
     font-size: medium;
   
   }
+  h4 {
+
+    text-align: left;
+    padding: 40px;
+    font-size: 25px;
+    margin-left: 15px;
+ }
+
+  p{
+    
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 10px;
+ 
+  }
+  h5{
+
+    text-align: left;
+    padding: 40px;
+    font-size: 15px;
+    margin-left: 15px;
+    
+ }
+ p{
+    
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 10px;
+margin-left: 40px;
+
+}
+
   
   input[type=text], select, textarea {
     width: 40%;
@@ -137,11 +172,7 @@ body {
     background-color: #45a049;
   }
   
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+  
   .img-location{
     width:50px;
     height: 50px;
@@ -186,13 +217,84 @@ body {
     background-color: white;
 
   }
+  .img-home{
+    width:400px;
+    height: 300px;
+  background-image:url(img/home.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   float:right;
+   margin: -350px;
+     padding: 50px 100px;
+     position: absolute;
+     left: 1500px;
+     font-family: Arial, Helvetica, sans-serif; 
+
+  } 
+  .img-home1 { 
+    width:400px;
+    height: 300px;
+  background-image:url(img/home1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   float:left;
+   padding: 50px 100px;
+margin-right: 120px;
+font-family: Arial, Helvetica, sans-serif;
+  } 
+
+  .container{
+
+    text-align: center;
+
+  } 
+ 
+  .container > div{
+  
+  width:500px;
+    height: 450px;
+  margin:10px;
+    background: #f2f2f2;
+  
+} 
+  h4{
+    margin-top: 0px;
+    font-size: 20px;
+  
+  } 
+  p{
+    
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+   .left{
+
+    float:left;
+                 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+        
+    
+      .center{
+               display: inline-block;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0 auto;
+          }
+          .right{
+            float: right;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+   }
+
+ 
   main{
 width: 90vw;
 margin: 0 auto;
 padding: 30px,20px;
 min-height: calc(100vh -450px -351.333);
   }
-
+  
   html, body { 
   
     height: 100%;
@@ -202,17 +304,20 @@ min-height: calc(100vh -450px -351.333);
     display: flex;
     flex-direction: column;
   }
+  
 
   .page-wrapper{
     
     min-height: 100%;
     
     }
+   
+  
   
 .footer {
      background-color: #303036;
      color: white;
-     height: 300px;
+     height: 400px;
      position: relative;
      width: 100%;
   bottom: 0;
@@ -223,40 +328,35 @@ min-height: calc(100vh -450px -351.333);
   
     .footer .footer-content{
       border: 1px solid red;
-      height: 350px;
+      height: 380px;
       display: flex;
     }
     .footer .footer-content .footer-section{
       flex:1;
-      border: 1px solid white;
+      border: 1px solid #303036;
       padding: 25px;
       font-size: 20px;
       
-      
-    }
-
-.footer .footer-content .about h1 span{
-
-  color:red;
-  
-}
-.footer .footer-content .about h1{
-  color:blue;
-
-    }
-    .footer .footer-content .about .contact span{
-      color:blue;
-      display: block;
-    
-        }
-        
-        
-    
+   }
    
-.footer .footer-bottom  {
+
+    
+    .footer .footer-content .links ul li{
+    display: block; 
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    right: 20px;
+    }
+    .footer .footer-content .socials{
+
+    margin-top: 90px;
+    
+    } 
+    .footer .footer-bottom  {
       background-color: #343a40;
       color:white;
-      height: 30px;
+      height: 50px;
       width: 100%;
       text-align: center;
       bottom: 0px;
